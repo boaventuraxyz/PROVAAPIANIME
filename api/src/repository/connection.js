@@ -6,5 +6,6 @@ const con = await mysql.createConnection({
     password: process.env.MYSQL_PWD,
     database: process.env.MYSQL_DB
 })
-
+console.log('DB ON')
 export {con}
+
