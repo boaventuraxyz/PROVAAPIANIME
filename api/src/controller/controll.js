@@ -5,8 +5,8 @@ const server = Router();
 
 server.post('/anime', async (req, resp) => {
     try{
-        const novo = req.body;
-        const anime = await Adicionar(novo);
+        const nome = req.body;
+        const anime = await Adicionar(nome);
         resp.send(anime)
     } catch(err) {
         resp.send({
