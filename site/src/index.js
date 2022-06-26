@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/inicio/App';
 import Add from './pages/add/add';
-import Consulta from './pages/consutar/consultar';
+import Consulta from './pages/Consultar/index';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
